@@ -43,6 +43,7 @@ a{
 
 :root {
     --white: #ffffff;
+    --black: #000000;
     --text-black: #262626;
     --text-light: #dec38b;
     --bg-dark: #214261;
@@ -53,6 +54,12 @@ a{
 
 .container {
     max-width: 1350px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container2{
+    max-width:800px;
     width: 90%;
     margin: 0 auto;
 }
