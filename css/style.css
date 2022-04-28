@@ -289,6 +289,43 @@
     left: 10rem;
 }
 
+/* ----------------------------- Testimonials ----------------------------- */
+
+.testimonials {
+    height: 129vh;
+    background-image: linear-gradient(rgba(0,0,0,0.06),rgba(0,0,0,0.06)), url(../image/bright-zoom.png);
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.testi-text {
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.testi-photo {
+    position: absolute;
+    top: 17rem;
+    left: 49%;
+    transform: translateX(-50%);
+}
+
+.head-text {
+    font-family: 'Gretaros Regular';
+    color: var(--bg-dark);
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    width: 80rem;
+}
+
+.body-text {
+    color: var(--bg-dark);
+    font-size: 1.9rem;
+    width: 80rem;
+}
+
 /* ----------------------------- Footer ----------------------------- */
 
 .footer {

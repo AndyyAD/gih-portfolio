@@ -9,6 +9,7 @@
     <title> Contact Form </title>
 </head>
 <body>
+ 
     <header class="header">
         <nav class="navbar">
             <nav class="container flex-box">
@@ -17,13 +18,13 @@
                     <li class="nav-item item-1"> <a href="#social-media"> Let's Connect </a> </li>
                 </ul>
             </nav>
-            <a href="#home"> <img src="./image/logo.png" alt="logo" class="logo"> </a>
+            <a href="./index.html"> <img src="./image/logo.png" alt="logo" class="logo"> </a>
         </nav>
     </header>
 
     <section class="showcase">
         <h1> Fill out the form below and we will reach you soon. </h1>
-        <form class="container2" action="./index.html" method="GET">
+        <form class="form container2" action="./php/insert.php" method="POST">
             <label for="username"> Name: </label> <br>
             <input class="text-box" type="text" id="username" name="username" placeholder="Type your username" required> <br>
 
@@ -51,5 +52,6 @@
             <p class="footer-text"> Sampad Adhikary | &copy | All rights reserved</p>
         </div>
     </footer>
+
 </body>
 </html>
